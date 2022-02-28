@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.gallery {
+  border: 1px #d1d1d1 solid;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.gallery img {
+  filter: opacity(65%);
+  transition: 0.5s;
+}
+
+.gallery img:hover {
+  filter: opacity(100%);
+  transition: 0.1s;
+}
+
+.nav {
+  margin-top: 5px;
+}
